@@ -12,14 +12,14 @@
   src: local('PT Mono'), local('PTMono-Regular'), url(../font/pt_mono.woff) format('woff');
 }
 
-html, body { 
+html, body {
   padding: 0;
   margin: 0;
 }
 
 body {
   font-family: Georgia, 'Nimbus Roman No9 L', 'Century Schoolbook L', serif;
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 1.45;
   color: black;
   background: white;
@@ -66,7 +66,7 @@ p:hover a.p_ident:after, pre:hover a.c_ident:after, h2:hover a.h_ident:after, h3
   content: "¶";
   font-family: 'Cinzel', Georgia, serif;
   color: #888;
-  font-size: 17px;
+  /* font-size: 17px; */
   position: absolute;
   right: -10px;
 }
@@ -83,7 +83,7 @@ p:hover a.p_ident:after, pre:hover a.c_ident:after, h2:hover a.h_ident:after, h3
 
 
 code, pre, .CodeMirror {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-family: 'PT Mono', monospace;
 }
 

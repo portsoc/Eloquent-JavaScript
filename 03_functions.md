@@ -1020,7 +1020,7 @@ positive, whole number) and return a Boolean.
 
 {{index "stack overflow"}}
 
-Test it on 50 and 75. See how it behaves on -1. Why? Can you think of
+Test it on 50 and 75. See how it behaves on -3. Why? Can you think of
 a way to fix this?
 
 {{if interactive
@@ -1032,11 +1032,13 @@ console.log(isEven(50));
 // → true
 console.log(isEven(75));
 // → false
-console.log(isEven(-1));
+console.log(isEven(-3));
 // → ??
 ```
 
 if}}
+
+When you've fixed it, try if it works with -1. There is a straightforward fix that works for -3 but breaks for -1.
 
 {{hint
 

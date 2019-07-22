@@ -937,7 +937,7 @@ values. But if you try to add a new property, it doesn't stick.
 
 ```
 let kim = "Kim";
-kim.age = 88;
+kim.age = 88; // this will fail in strict mode
 console.log(kim.age);
 // → undefined
 ```

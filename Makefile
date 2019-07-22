@@ -2,6 +2,8 @@ CHAPTERS := $(basename $(shell ls [0-9][0-9]_*.md) .md)
 
 SVGS := $(wildcard img/*.svg)
 
+default: html
+
 all: html book.pdf book_mobile.pdf book.epub book.mobi
 
 html: $(foreach CHAP,$(CHAPTERS),html/$(CHAP).html) html/js/acorn_codemirror.js \

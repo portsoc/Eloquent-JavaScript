@@ -118,7 +118,7 @@ quote}}
 {{index vocabulary}}
 
 The second is shorter and easier to interpret. But you do need to
-understand a few more cooking-related words such as _soak_, _simmer_, _chop_,
+understand a few more cooking-related words such as _soak_, _chop_,
 and, I guess, _vegetable_.
 
 When programming, we can't rely on all the words we need to be waiting

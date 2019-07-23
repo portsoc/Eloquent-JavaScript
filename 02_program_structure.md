@@ -379,6 +379,8 @@ execution))_.
 
 {{index [syntax, statement], "Number function", "if keyword"}}
 
+_todo rich: add a better example for if, firstly it should include "else", secondly none of the complexity of Number(...) etc._
+
 Conditional execution is created with the `if` keyword in JavaScript.
 In the simple case, we want some code to be executed if, and only if,
 a certain condition holds. We might, for example, want to show the

@@ -63,8 +63,7 @@ consists of only a single ((statement)).
 {{index "power example"}}
 
 A function can have multiple parameters or no parameters at all. In
-the following example, `makeNoise` does not list any parameter names,
-whereas `power` lists two:
+the following example, `makeNoise` does not list any parameter names:
 
 ```
 const makeNoise = function() {
@@ -73,7 +72,11 @@ const makeNoise = function() {
 
 makeNoise();
 // → Pling!
+```
 
+In contrast, `power` lists two parameter names, "base" and "exponent":
+
+```
 const power = function(base, exponent) {
   let result = 1;
   for (let count = 0; count < exponent; count++) {

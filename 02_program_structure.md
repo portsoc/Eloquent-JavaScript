@@ -749,7 +749,24 @@ for (let number = 0; number <= 12; number += 2) {
 {{index "++ operator", "-- operator"}}
 
 For `counter += 1` and `counter -= 1`, there are even shorter
-equivalents: `counter++` and `counter--`.
+equivalents: `counter++` and `counter--`. `++` and `--` can be used as _prefix_ or _postfix_ operators (they go before or after the binding that's being incremented or decremented); they both alter the value but differ in what they return. Due to these unusual properties, it's common to avoid using `++` or `--`.
+
+```{test: no}
+let a = 0;
+a++;
+console.log(a);
+// 1
+++a;
+console.log(a);
+// 2
+console.log(a++);
+// 2 — a++ returns the value of a before incrementing
+console.log(a);
+// 3
+console.log(++a);
+// 4 — ++a returns the value of a after incrementing
+```
+
 
 ## Dispatching on a value with switch
 

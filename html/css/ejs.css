@@ -459,3 +459,14 @@ sub {
 sup {
   font-size: 70%;
 }
+
+.advanced-topic {
+  border-left: 0.1rem solid #888;
+  border-top: 0.1rem solid #888;
+  padding: 1rem 0 .5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.advanced-topic > :first-child::before {
+  content: 'Advanced topic: ';
+}

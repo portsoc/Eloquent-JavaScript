@@ -1248,6 +1248,8 @@ Note that if you try to destructure `null` or `undefined`, you get an
 error, much as you would if you directly try to access a property
 of those values.
 
+<section class="advanced-topic">
+
 ## JSON
 
 {{index [array, representation], [object, representation], "data format", [memory, organization]}}
@@ -1309,6 +1311,8 @@ console.log(string);
 console.log(JSON.parse(string).events);
 // → ["weekend"]
 ```
+
+</section>
 
 ## Summary
 

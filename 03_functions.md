@@ -503,6 +503,8 @@ console.log("C", "O", 2);
 // → C O 2
 ```
 
+<section class="advanced-topic">
+
 ## Closure
 
 {{index "call stack", "local binding", [function, "as value"], scope}}
@@ -574,6 +576,8 @@ In the example, `multiplier` is called and creates an environment in
 which its `factor` parameter is bound to 2. The function value it
 returns, which is stored in `twice`, remembers this environment. So
 when that is called, it multiplies its argument by 2.
+
+</section>
 
 ## Recursion
 

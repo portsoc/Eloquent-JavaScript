@@ -366,7 +366,7 @@ class Rabbit {
 }
 
 let killerRabbit = new Rabbit("killer");
-let blackRabbit = new Rabbit("black");
+let greyRabbit = new Rabbit("grey");
 ```
 
 {{index "rabbit example", [braces, class]}}
@@ -417,7 +417,7 @@ console.log(killerRabbit.teeth);
 killerRabbit.teeth = "long, sharp, and bloody";
 console.log(killerRabbit.teeth);
 // → long, sharp, and bloody
-console.log(blackRabbit.teeth);
+console.log(greyRabbit.teeth);
 // → small
 console.log(Rabbit.prototype.teeth);
 // → small
@@ -582,8 +582,8 @@ Rabbit.prototype.toString = function() {
   return `a ${this.type} rabbit`;
 };
 
-console.log(String(blackRabbit));
-// → a black rabbit
+console.log(String(greyRabbit));
+// → a grey rabbit
 ```
 
 {{index "object-oriented programming", [interface, object]}}
@@ -632,7 +632,7 @@ let sym = Symbol("name");
 console.log(sym == Symbol("name"));
 // → false
 Rabbit.prototype[sym] = 55;
-console.log(blackRabbit[sym]);
+console.log(greyRabbit[sym]);
 // → 55
 ```
 
